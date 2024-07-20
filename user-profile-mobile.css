@@ -1,0 +1,388 @@
+	@media only screen and (max-width:800px) {
+body
+	{
+		margin:0;
+		padding:0;
+	}
+.visible-mobile
+	{
+		display:block;
+	}	
+.pc-display
+	{
+		display:none;
+	}	
+.hidden
+	{
+		display:none;
+	}
+
+
+*{
+	margin:0;
+	padding:0;
+}
+a 
+	{
+		text-decoration:none;
+		color:black;
+	}
+
+		
+
+.fixed 
+	{
+		height:50px;
+		width:100%;
+		border-right:1px solid black;
+		position:fixed;
+		bottom:0;
+		display:flex;
+		flex-direction:column;
+		justify-content:space-around;
+		align-items:center;
+		background-color:white;
+	}
+.fixed span
+	{
+		display:none;
+	}	
+			
+.fix-child-1
+	{
+		height:75%;
+		width:100%;
+		/* border:1px solid red; */
+		display:flex;
+		flex-direction:row;
+		justify-content:space-around;
+		font-size:18px;
+	}
+.fix-child-1  i
+	{
+		margin:5%;
+		
+	}	
+.fix-title
+	{
+		margin-bottom:10%;
+		margin-left:10%;
+		display:none;
+	}	
+.fix-icon
+	{
+		padding:1%;
+		margin-right:5%;
+		margin-left:1%;
+		border-radius:10px;
+		
+	}	
+.desktop
+	{
+		display:none;
+	}	
+.fix-icon:hover
+	{
+		background-color:#E9EAEA;
+	}	
+			
+.fix-child-2
+	{
+		
+		display:none;
+		
+	}			
+			
+.fix-title
+	{
+		height:;
+		width:100%;
+	}	
+
+
+
+
+
+
+
+		/* main div csss from here */
+.top-bar
+	{
+		height:50px;
+		width:100%;
+		display:flex;
+		font-size:20px;
+		align-items:center;
+	}
+.top-bar-div-1
+	{
+		width:60%;
+		font-weight:bold;
+	}
+
+.top-bar-div-2
+	{
+		width:40%;
+		display:flex;
+		justify-content:space-around;
+	}	
+
+
+
+	
+.mobile
+	{
+		display:none;
+	}
+.mobile-1
+	{
+		display:block;
+	}
+.mobile-top-bar
+	{
+		display:none;
+	}
+.header-mobile
+	{
+		display:none;
+	}	
+	
+
+.main-div
+	{
+		/* height:100%; */
+		width:100%;
+		box-sizing:border-box;
+		margin-left:0;
+		box-sizing:border-box;
+		padding-left:0%;
+		padding-right:0%;
+		overflow-x:hidden;
+		
+	}
+.header-desktop
+	{
+		
+		width:100%;
+		margin-top:0%;
+		display:flex;
+		align-items:center;
+		/* justify-content:center; */
+		
+	}	
+
+.profile-photo
+	{
+		/* height:150px; */
+		width:150px;
+		margin-top:2%;
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+		
+	}
+.profile-photo img
+	{
+		height:100px;
+		width:100px;
+		border-radius:50%;
+		border:5px double gray;
+		
+	}	
+.Profile-info
+	{
+		height:160px;
+		width:70%;
+		margin-left:4%;
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		font-size:20px;
+	}	
+
+.user-name-tag
+	{
+		display:none;
+	}	
+.edit-profile
+	{
+		display:none;
+	}	
+.archive
+	{
+		display:none;
+	}		
+.followers-line
+	{
+		height:25%;
+		width:100%;
+		font-size:16px;
+		display:flex;
+		align-items:center;
+		/* justify-content:space-around; */
+		
+	}
+.followers-line div
+	{
+		margin-right:6%;
+		text-align:center;
+	}	
+span
+	{
+		
+	}	
+.name-tag
+	{
+		display:none;
+	}
+.after-profile
+	{
+		display:block;
+	}
+
+	
+.profile-edit-share
+	{
+		height:35px;
+		width:100%;
+		border:none;
+		box-sizing:border-box;
+		margin-top:2%;
+		display:flex;
+		justify-content:space-between;
+		margin-bottom:2%;
+		padding-left:5%;
+		padding-right:5%;
+	}
+.edit-profile-tag
+	{
+		/* height:100%; */
+		/* width:35%; */
+		border:1px solid black;
+		text-align:center;
+		padding:2%;
+		border-radius:10px;
+		padding-left:%;
+		padding-right:%;
+	}	
+.share-profile-tag
+	{
+		/* height:100%; */
+		/* width:35%; */
+		border:1px solid black;
+		text-align:center;
+		padding:2%;
+		border-radius:10px;
+		padding-left:%;
+		padding-right:%;
+	}	
+.profile-contacts-tag
+	{
+		/* height:100%; */
+		/* width:20%; */
+		border:1px solid black;
+		text-align:center;
+		padding:2%;
+		border-radius:10px;
+		padding-left:8%;
+		padding-right:8%;
+	}	
+.user-story-highlight
+	{
+		height:100px;
+		width:95%;
+		display:flex;
+		align-items:center;
+		
+	}
+.user-saved-story
+	{
+		height:80px;
+		width:80px;
+		text-align:center;
+		margin-right:5%;
+		
+	}	
+.user-saved-story img
+	{
+		height:80%;
+		width:80%;
+		border-radius:50%;
+		object-fit:cover;
+		border:3px double gray;
+	}
+.user-saved-story p	
+	{
+		margin-top:5%;
+		font-size:10px;
+		font-weight:none;
+		
+	}
+.posts
+{
+		height:100%;
+		width:100%;
+		
+		display:flex;
+		flex-direction:column;
+		/* justify-content:center;	 */
+		align-items:center;
+		box-sizing:border-box;
+		padding-left:0%;
+		padding-right:0%;
+		margin-top:0%;
+		
+		
+}	
+.post-reels-heading
+	{
+		height:50px;
+		width:80%;
+		border-top:none;
+		display:flex;
+		align-items:center;
+		justify-content:space-around;
+		padding-top:%;
+	}
+.post-reels-heading > div
+	{
+		margin-left:4%;
+		font-size:15px;
+		
+	}	
+.actual-post
+	{
+		/* height:100%; */
+		
+		width:100%;
+		/* border:1px solid black; */
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:space-between;
+		box-sizing:border-box;
+		
+	}	
+.single-post
+	{
+		height:150px;
+		width:33%;
+		/* border:1px solid black; */
+		margin-bottom:0.3%;
+		/* float:left; */
+		/* margin-left:1%; */
+	}	
+.single-post img
+	{
+		height:100%;
+		width:100%;
+		object-fit:cover;
+	}	
+
+
+
+
+
+
+
+

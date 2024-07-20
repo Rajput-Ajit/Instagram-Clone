@@ -1,0 +1,1011 @@
+	/* display none for desktop */
+.visible-mobile
+	{
+		display:none;
+	}	
+	
+.pc-display
+	{
+		display:block;
+	}	
+	
+	/* display none for desktop end */
+
+
+
+.hidden
+	{
+		display:block;
+	}
+
+
+
+a 
+	{
+		text-decoration:none;
+		color:black;
+	}
+	
+	
+.fixed
+	{
+		height:700px;
+		width:16%;
+		border-right:1px solid gray;
+		position:fixed;
+		left:0;
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		box-sizing:border-box;
+		padding-left:1%;
+		justify-content:space-around;
+		z-index:1;
+	}
+
+.fix-child-1
+	{
+		height:75%;
+		width:100%;
+		display:flex;
+		flex-direction:column;
+		
+		font-size:19px;
+		justify-content:space-around;
+	}	
+
+.fix-child-1  i
+	{
+		margin:5%;
+		font-size:22px;
+	}	
+	
+.fix-title
+	{
+		margin-bottom:10%;
+		margin-left:10%;
+		font-size:22px;
+		
+	}	
+
+.fix-icon
+	{
+		width:40%;
+		background-color:;
+		padding:1%;
+		padding-right:100px;
+		border-radius:10px;
+		font-size:20px;
+		display:flex;
+		align-items:center;
+		
+	}	
+	
+.fix-icon:hover
+	{
+		background-color:#E9EAEA;
+		
+	}
+.fix-icon > div
+	{
+		/* color:red; */
+		font-family:arial;
+		font-size:16px;
+		margin-left:8px;
+	}	
+
+.desktop
+	{
+		width:40%;
+		background-color:;
+		padding:1%;
+		padding-right:100px;
+		border-radius:10px;
+		font-size:20px;
+		display:flex;
+		align-items:center;
+		justify-content:space-between;
+	}	
+	
+.desktop:hover
+	{
+		background-color:#E9EAEA;
+	}	
+.desktop > div
+	{
+		/* color:orange; */
+		font-family:arial;
+		font-size:16px;
+		margin-left:8px;
+	}
+
+.d-flex-center
+	{
+		display:flex;
+		align-items:center;
+	}
+
+.margin-left-5
+	{
+		margin-left:5%;
+	}	
+	
+.drop-down-search
+	{
+		height:100%;
+		top:0;
+		/* height:690px; */
+		width:400px;
+		
+		position:absolute;
+		left:180px;
+		display:none;
+		/* top:-190; */
+		/* border:2px solid black; */
+		box-shadow:1px 1px 2px gray;
+	}	
+	
+.desktop:hover .drop-down-search
+	{
+		background-color:white;
+		border-radius:10px;
+		display:block;
+	}
+	
+	
+.search-history
+	{
+		height:100%;
+		width:100%;
+		border-radius:10px;
+		/* border:1px solid black; */
+		box-sizing:border-box;
+		padding:5%;
+	}	
+	
+.top-20
+	{
+		height:20%;
+		width:100%;
+		border-bottom:1px solid black;
+	}	
+
+input
+	{
+		height:25%;
+		width:90%;
+		border:none;
+		border-radius:10px;
+		padding-left:3%;
+		background-color:#E9EAEA;
+	}	
+
+	
+.next-80
+	{
+		height:80%;
+		width:100%;
+	}	
+	
+.d-flex
+	{
+		margin-bottom:5%;
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+	}	
+	
+.profile
+	{
+		height:60px;
+		width:80%;
+		/* border:1px solid black; */
+		display:flex;
+		align-items:center;
+	}	
+
+.profile-photo-search
+	{
+		height:100%;
+		width:22%;
+		/* border:1px solid black; */
+		border-radius:50%;
+	}	
+
+.profile-photo-search img
+	{
+		height:100%;
+		width:100%;
+		border-radius:50%;
+	}	
+	
+.both-name
+	{
+		height:100%;
+		width:80%;
+		display:flex;
+		flex-direction:column;
+		padding-left:3%;
+		justify-content:center;
+		/* border:1px solid black; */
+	}	
+
+.both-name p
+	{
+		margin:0;
+	}
+.both-name i
+	{
+		margin:0;
+		color:blue;
+	}	
+	
+.cross-icon	
+	{
+		
+	}
+
+
+
+.drop-down
+	{
+		height:100%;
+		top:0;
+		/* height:690px; */
+		width:400px;
+		
+		position:absolute;
+		left:180px;
+		display:none;
+		/* top:-190; */
+		/* border:2px solid black; */
+		box-shadow:1px 1px 2px gray;
+	}
+	
+.desktop:hover .drop-down
+	{
+		background-color:white;
+		border-radius:10px;
+		display:block;
+	}
+
+.desktop:hover .drop-down
+	{
+		background-color:white;
+		border-radius:10px;
+		display:block;
+	}	
+	
+.notification-dropdown
+	{
+		height:100%;
+		width:100%;
+		box-sizing:border-box;
+		padding:3%;
+	}	
+	
+.drop-10
+	{
+		
+		
+	}	
+
+.notification
+	{
+		
+	}	
+
+.request
+	{
+		height:60px;
+		width:100%;
+		display:flex;
+		align-items:center;
+		/* border:1px solid black; */
+	}	
+
+.info
+	{
+		height:100%;
+		width:85%;
+		display:flex;
+		align-items:center;
+	}	
+
+.photo
+	{
+		height:100%;
+		width:20%;
+		border:1px solid black;
+		border-radius:50%;
+	}
+
+.photo img 
+	{
+		height:100%;
+		width:100%;
+		border-radius:50%;
+		
+	}		
+
+.inside
+	{
+		padding-left:3%;
+		align-items:center;
+	}
+
+.inside h5
+	{
+		margin:0;
+		font-weight:bold;
+	}
+.inside p
+	{
+		margin:0;
+		color:gray;
+		font-size:16px;
+	}
+	
+
+.icon
+	{
+		width:15%;
+	}	
+
+.create-drop-down
+	{
+		height:100%;
+		top:0;
+		width:1300px;
+		/* width:400px; */
+		
+		position:absolute;
+		left:180px;
+		display:none;
+		/* top:-190; */
+		/* border:2px solid black; */
+		/* box-shadow:1px 1px 2px gray; */
+		justify-content:center;
+		align-items:center;
+	}	
+	
+.desktop:hover .create-drop-down
+	{
+		background-color:none;
+		border-radius:10px;
+		display:block;
+	}
+
+.drop-flex
+	{
+			height:100%;
+		width:100%;
+		background-color:none;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}	
+
+.upload-div
+	{
+		height:80%;
+		width:50%;
+		border-radius:10px;
+		box-shadow:0px 0px 10px 10px gray;
+	}	
+
+.top-title
+	{
+		height:6%;
+		width:100%;
+		font-size:25px;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		color:#6b7bdf;
+		font-weight:bold;
+		border-bottom:1px solid gray;
+	}	
+
+.Select-upload
+	{
+		height:90%;
+		width:100%;
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+	}	
+	
+.Select-upload i
+	{
+		font-size:200px;
+		color:#329a32;
+		/* color:#0f9600; */
+	}	
+
+.Select-upload > form
+	{
+		height:20%;
+	}
+
+	
+
+.upload-tag
+	{
+		height:20px;
+		width:50px;
+		padding:1.5%;
+		border-radius:10px;
+		background-color:green;
+		color:white;
+		font-size:18px;
+	}	
+
+.upload-tag:hover
+	{
+		background-color:red;
+	}	
+	
+	/* fix child 2 css */
+	
+.fix-child-2
+	{
+		height:15%;
+		width:100%;
+		box-sizing:border-box;
+		display:flex;
+		justify-content:space-around;
+		
+		padding:2%;
+		flex-direction:column;
+		
+		font-size:18px;
+	}
+	
+.fix-child-2  i
+	{
+		margin:5%;
+		font-weight:bold;
+		
+	}		
+	
+.child-2-icon
+	{
+		
+	}	
+
+/* css for fixed div end */
+/* css for fixed div end */
+	
+	
+	
+/* this css for mobile and desktop 			 */
+.fix-title
+	{
+		height:;
+		width:100%;
+	}	
+.fix-icon:hover .drop-down-search
+	{
+		background-color:white;
+		border-radius:10px;
+		display:block;
+	}
+.fix-icon:hover .drop-down
+	{
+		background-color:white;
+		border-radius:10px;
+		display:block;
+	}
+
+.desktop:hover .drop-down
+	{
+		background-color:white;
+		border-radius:10px;
+		display:block;
+	}
+
+.follow
+	{
+		display:flex;
+		flex-direction:row;
+		color:gray;
+	}
+
+.parent-content
+	{
+		/* height:100% */
+		width:100%;
+		display:flex;
+		align-items:center;
+	}	
+.content
+	{
+		height:60px;
+		width:85%;
+		margin-bottom:1%;
+		border:1px solid black;
+	}
+.follow-tag
+	{
+		height:10%;
+		color:white;
+		padding:1.5%;
+		border-radius:10px;
+		background-color:blue;
+	}
+
+
+
+
+
+
+
+/* main div i.e. big div for side content from here*/
+
+.main-div
+	{
+		height:100%;
+		width:84%;
+		margin-left:16%;
+		display:flex;
+	}
+	
+.main-post-div
+	{
+		/* height:100%; */
+		width:800px;
+		/* width:70%; */
+		/* border:2px solid black; */
+		
+		box-sizing:border-box;
+		display:flex;
+		flex-direction:column;
+		
+		align-items:center;
+		
+		/* overflow:auto; */
+	}
+	
+	/* this classes is for mobile */
+.upper-div
+{
+	
+	box-sizing:border-box;
+	height:40px;
+	width:100%;
+	
+	display:flex;
+	padding:2%;
+	justify-content:space-between;
+	align-items:center;
+	display:none;
+}
+.upper-div > p
+{
+	margin:0;
+}
+.top-like
+	{
+		display:flex;
+	}
+.top-like > p
+	{
+		margin-right:10px;
+		margin-left:10px;
+	}
+
+	/* here is css for story's */
+.story-round
+	{
+		 height:140px;
+		 width:85%;
+		 display:flex;
+		 align-items:center;
+		 overflow-x:auto;
+		 overflow-y:hidden;
+	}
+.actual-story-div
+	{
+		 height:60px;
+		 width:60px;
+		 margin-top:5%;
+		 text-align:center;
+		 margin-right:5%;
+	}
+
+.actual-story-div img	
+	{
+		 height:100%;
+		 width:100%;
+		 border-radius:50%;
+		 border:3px solid orange;
+		 object-fit:cover;
+	}
+.actual-story-div p
+	{
+		margin:0;
+		display:flex;
+		 white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}	
+
+		/* this  is actual content uploaded by user */
+
+.post-div
+	{
+		height:500px;
+		width:450px;
+		
+		box-sizing:border-box;
+		
+		margin-top:2%;
+		border-radius:5px;
+	}
+ 	
+	
+.user-post
+	{
+		/* height:100%; */
+		width:100%;
+		margin-top:5%;
+		border-bottom:1px solid black;
+		z-index:-1;
+	}	
+	
+.user-profile
+	{
+		height:40px;
+		width:100%;
+		display:flex;
+		flex-direction:row;
+		align-items:center;
+		
+	}
+
+	
+.user-profile-pic
+	{
+		height:90%;
+		width:8%;
+		border-radius:50%;
+		/* border:2px solid black; */
+	}
+.user-profile-pic img
+	{
+		height:100%;
+		width:100%;
+		object-fit:cover;
+		border-radius:100%;
+	}
+	
+.user-profile-name
+	{
+		height:100%;
+		width:80%;
+		/* border:1px solid black; */
+		padding-left:2%;
+		display:flex;
+		align-items:center;
+		font-weight:bold;
+	}
+.post-content
+	{
+		/* height:100%; */
+		width:100%;
+		margin-top:2%;
+		margin-bottom:2%;
+		border-radius:5px;
+	}	
+.post-content img
+	{
+		/* height:100%; */
+		width:100%;
+		
+		border-radius:5px;
+	}
+.post-content video
+	{
+		/* height:; */
+		width:100%;
+		border-radius:5px;
+	}	
+.like-share
+	{
+		height:30px;
+		width:100%;
+		display:flex;
+		flex-direction:row;
+		align-items:center;
+		justify-content:space-between;
+		/* border:1px solid black; */
+		font-size:25px;
+	}
+.like-share > p	
+	{
+		display:flex;
+	}
+.margin
+	{
+		width:50%;
+		
+	}
+.margin > i
+	{
+		margin-right:10%;
+	}
+.like-count
+	{
+		height:25px;
+		width:100%;
+		display:flex;
+		flex-direction:row;
+		align-items:center;
+		/* border:1px solid black; */
+		font-size:15px;
+		font-weight:bold;
+	}
+.caption
+	{
+		/* height:25px; */
+		width:100%;
+		display:flex;
+		flex-direction:row;
+		align-items:center;
+		margin-top:0.5%;
+		margin-bottom:0.5%;
+		font-size:15px;
+	}	
+.comment-count
+	{
+		height:25px;
+		width:100%;
+		display:flex;
+		flex-direction:row;
+		align-items:center;
+		/* border:1px solid black; */
+		font-size:15px;
+		color:gray;
+	}
+
+
+		/* css for side content */
+
+
+.side-div
+	{
+		height:80%;
+		width:30%;
+		box-sizing:border-box;
+		
+	}
+.side-profile-div
+	{
+		height:10%;
+		width:100%;
+		padding:1%;
+		/* border:1px solid black; */
+		margin-top:2%;
+		display:flex;
+		align-items:center;
+	}
+
+.my-profile
+	{
+		height:50px;
+		width:50px;
+	}
+
+.my-profile img
+	{
+		height:100%;
+		width:100%;
+		border-radius:50%;
+		
+	}
+	
+.username-side
+	{
+		/* height:45%; */
+		width:50%;
+		float:left;
+		padding:0.5%;
+		font-size:15px;
+		font-weight:bold;
+		padding-left:5%;
+	}
+.username-side p
+	{
+		color:gray;
+		margin:0;
+	}
+
+.switch
+	{
+		
+		
+		float:right;
+		color:blue;
+		
+	}
+.tag
+	{
+		height:;
+		width:100%;
+		padding:1%;
+		margin-top:2%;
+		margin-bottom:2%;
+		float:left;
+	}
+
+.footer
+	{
+		height:20%;
+		width:100%;
+		float:left;
+		color:gray;
+		margin-top:5%;
+	}
+
+
+
+
+
+
+		/* this div is useless this time or aboundoant */
+
+
+
+.try
+	{
+		 height:150px;
+		 width:100%;
+		
+		 /* background-color:green; */
+		 margin-top:2%;
+		 box-sizing:border-box;
+		 /* padding-left:3%; */
+		 display:flex;
+		 
+	}
+.try img
+	{
+		border-radius:50%; border:5px solid orange;
+	}
+.story-trial
+	{
+		 width:110px;
+		 margin-left:4%;
+		 align-items:center;
+		 text-align:center;
+		 overflow:hidden;
+	}
+
+	/* this is for hover property */
+.modi-hover
+	{
+		 height:300px;
+		 width:400px;
+		 background-color:white;
+		 position:absolute;
+		 top:30px;
+		 left:0;
+		 border-radius:10px;
+		 box-shadow:0px 0px 10px 0px gray;
+		display:none;
+		 flex-direction:column;
+		 justify-content:center;
+		 align-items:center;
+	}
+#Profile-hover
+	{
+		width:90%;
+		height:25%;
+		display:flex;
+		justify-content:start;
+		align-items:center;
+		
+	}	
+#Profile-hover img
+	{
+		height:60px;
+		width:60px;
+		border-radius:50%;
+	}	
+#Profile-hover p
+	{
+		margin:0;
+	}
+#follower-hover
+	{
+		height:15%;
+		width:80%;
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+		font-size:14px;
+		
+	}
+#follower-hover p
+	{
+		margin:0;
+	}	
+#post-hover
+	{
+		width:100%;
+		height:50%;
+		display:flex;
+		justify-content:start;
+		align-items:center;
+		display:flex;
+		justify-content:space-between;
+	}	
+#post-hover img
+	{
+		height:100%;
+		width:33%;
+		object-fit:cover;
+	}	
+#bottom-hover
+	{
+		width:100%;
+		height:15%;
+		display:flex;
+		justify-content:start;
+		align-items:center;
+		display:flex;
+		justify-content:space-around;
+		align-items:center;
+	}	
+#bottom-hover > div
+	{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}	
+.user-profile-name:hover .modi-hover
+	{
+		display:block;
+	}
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar 
+	{
+     /* display: none; */
+	} 
+.story-div
+	{
+		/* height:10%; */
+		height:200px;
+		width:720px;
+		display:none;
+		/* display:flex; */
+		flex-direction:row;
+		/* overflow-x:auto; */
+		/* margin-bottom:5%; */
+		/* border:1px solid black; */
+	}	
+.single-story
+	{
+		height:80%;
+		width:82px;
+		border:5px solid orange;
+		margin-right:3%;
+		border-radius:50%;
+	}	
+.single-story img
+	{
+		height:100%;
+		width:100%;
+		border-radius:50%;
+		margin-right:2%;
+	}	
